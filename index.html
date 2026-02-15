@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="My Creative Portfolio" />
+  <title>Portfolio</title>
+  <!-- Font Awesome for GitHub Icon -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  integrity="sha512-xh6O0jvZ5Hq1Z/3D1PwGnqfR6y5JjHnH8hz7iI3NfFFPZw+q3iLwTjEhfwav5fupW+J5o1O9n7FJ0p6kz+8zRw=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
+
+
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="navbar container">
+      <div class="logo"><a href="#">MyPortfolio<span>.</span></a></div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+           <li><a href="#hackathons">Hackathons</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+  
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Mythili Bandaru</span></h1>
+      <p>I'm on a journey to turn ideas into digital solutions, learning and growing with each project</p>
+      <p>I design and develop modern web applications with clean code, creative thinking, and strong problem-solving skills.
+</p>
+      <a href="#projects" class="cta">Explore My Work</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="assets/profile.png" alt="Profile" class="profile-img" />
+        <div class="bio">
+          <p>
+            I'm a student passionate about web development, data analytics and problem solving, dedicated to creating innovative and user-friendly digital experiences.
+            I love turning ideas into functional websites while continuously learning new technologies to sharpen my skills.
+          </p>
+          <a href="#contact" class="cta glow">Let's Connect</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <h3>HTML & CSS</h3>
+          <div class="skill-bar"><div class="skill-level" data-level="92%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>JavaScript</h3>
+          <div class="skill-bar"><div class="skill-level" data-level="89%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>React</h3>
+          <div class="skill-bar"><div class="skill-level" data-level="80%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>MySQL</h3>
+          <div class="skill-bar"><div class="skill-level" data-level="85%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>Problem Solving</h3>
+          <p>C,Python,Java</p>
+          <div class="skill-bar"><div class="skill-level" data-level="87%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="project-cards">
+        <div class="project-card">
+          <img src="assets/project1.jpg" alt="Project 1" />
+          <div class="project-info">
+            <h3>Haven'Dine</h3>
+            <p>A modern and responsive restaurant website designed to showcase menus, ambiance, and online reservations seamlessly built using React js </p>
+            <a href="https://github.com/mythilibandaru/Have-nDine.git" target="_blank" class="visit-btn">Visit Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/project2.jpg" alt="Project 2" />
+          <div class="project-info">
+            <h3>Driver Drowsiness Detection System</h3>
+            <p>Developed a system that detects driver drowsiness using computer vision and triggers real-time alerts to prevent accidents.</p>
+            <a href="https://github.com/mythilibandaru/DriverDrowsinessDetectionSystem.git" target="_blank" class="visit-btn">Visit Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/project3.jpg" alt="Project 3" />
+          <div class="project-info">
+            <h3>To Do List</h3>
+            <p>Developed an interactive To-Do List application with task addition, deletion, and completion tracking features.</p>
+            <a href="https://todolistmyth.netlify.app" target="_blank" class="visit-btn">Visit Project</a>
+          </div>
+        </div>
+
+         <div class="project-card">
+          <img src="assets/surplusfoodrescue.webp" alt="Project 2" />
+          <div class="project-info">
+            <h3>Surplus Food Rescue </h3>
+            <p>Developed a surplus food rescue project aimed at redistributing excess food to reduce waste and support people in need.</p>
+            <a href="https://feedlyf.bolt.host/" target="_blank" class="visit-btn">Visit Project</a>
+          </div>
+        </div>
+
+
+         <div class="project-card">
+          <img src="assets/hospital.jpg" alt="Project 2" />
+          <div class="project-info">
+            <h3>Hospital Management System using JDBC</h3>
+            <p>Developed a hospital management system using JDBC for database connectivity and management of patient records, appointments, and billing.</p>
+            <a href="https://github.com/mythilibandaru/Hospital-Management-System.git" target="_blank" class="visit-btn">Visit Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/portfolio.jpg" alt="Project 2" />
+          <div class="project-info">
+            <h3>My Portfolio Website</h3>
+            <p>Developed a responsive and visually appealing portfolio website to showcase my projects, skills, and achievements.</p>
+            <a href="https://github.com/mythilibandaru/Portfolio.git" target="_blank" class="visit-btn">Visit Project</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HACKATHONS -->
+<section class="hackathons" id="hackathons">
+  <div class="container">
+    <h2>Hackathons</h2>
+    <div class="cert-cards">
+      <div class="cert-card">
+        <h3>TechSprint 2k25</h3>
+        <p>Participated in Tech Sprint 2K25 Hackathon by Google Developer Group, collaborating in a team to develop an innovative real-world problem-solving solution within a limited time frame.
+</p>
+      </div>
+      <div class="cert-card">
+        <h3>.net Workshop</h3>
+        <p>Attended a .NET workshop by Quality Thought, gaining practical experience in application development using the .NET framework.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- CERTIFICATIONS -->
+  <section class="certifications" id="certifications">
+    <div class="container">
+      <h2>Certifications</h2>
+      <div class="cert-cards">
+  <a href="assets/cisco-Python_Essentials_1_2.pdf" target="_blank" class="cert-card">
+    <h3>Python Essentials 1 & 2</h3>
+    <p>Certificate in Python Essentials, covering core concepts and programming fundamentals.</p>
+    <span class="view-text">Click to View</span>
+  </a>
+
+  <a href="assets/certificate2.jpeg" target="_blank" class="cert-card">
+    <h3>Data Analytics</h3>
+    <p>Completed Deloitte’s virtual internship focused on data analysis and visualization.</p>
+    <span class="view-text">Click to View</span>
+  </a>
+
+  <a href="assets/certificate3.jpeg" target="_blank" class="cert-card">
+    <h3>Prompt Engineering</h3>
+    <p>Certificate demonstrating expertise in Prompt Engineering from SkillCraft Technologies.</p>
+    <span class="view-text">Click to View</span>
+  </a>
+
+  <a href="assets/TechSprint GDG.pdf" target="_blank" class="cert-card">
+    <h3>TechSprint GDG</h3>
+    <p>Certificate demonstrating expertise in Tech Sprint 2K25 Hackathon by Google Developer Group, collaborating in a team to develop an innovative real-world problem-solving solution within a limited time frame.</p>
+    <span class="view-text">Click to View</span>
+  </a>
+
+  <a href="assets/ccna-cybersecurity.pdf" target="_blank" class="cert-card">
+    <h3>Cisco Cybersecurity Essentials</h3>
+    <p>Completed Cybersecurity Essentials and gained hands-on experience with Cisco Packet Tracer through “Getting Started with Packet Tracer” and “Exploring Packet Tracer” courses, building foundational skills in network security and simulation.</p>
+    <span class="view-text">Click to View</span>
+  </a>
+
+  <a href="assets/cisco-networking_basics_and_essentials.pdf" target="_blank" class="cert-card">
+    <h3>Cisco Networking Basics and Essentials</h3>
+    <p>Completed Cisco Networking Basics and Essentials certification, gaining strong understanding of network fundamentals, protocols, IP addressing, and troubleshooting concepts.
+</p>
+<span class="view-text">Click to View</span>
+  </a>
+
+  <a href="assets/ccna.pdf" target="_blank" class="cert-card">
+    <h3>CCNA-Networks</h3>
+    <p>Certificate demonstrating expertise in CCNA-Introduction to Networks, Switching, Routing and Wireless Essentials, Enterprise Netwrking Security and automation.</p>
+    <span class="view-text">Click to View</span>
+  </a>
+
+  <a href="assets/Infosys-Introduction_to_cloud_computing.pdf" target="_blank" class="cert-card">
+    <h3>Infosys-Introduction to Cloud Computing</h3>
+    <p>Completed the Infosys AWS Introduction to Cloud Computing certification, gaining foundational knowledge of cloud concepts, services, and deployment models.
+</p>
+<span class="view-text">Click to View</span>
+  </a>
+
+  <a href="assets/hexart- advanced ai.pdf" target="_blank" class="cert-card">
+    <h3>Hexart-Advanced AI</h3>
+    <p>Completed Hexart Advanced AI certification, gaining knowledge in advanced artificial intelligence concepts and practical applications of machine learning techniques.
+</p>
+<span class="view-text">Click to View</span>
+  </a>
+
+</div>
+
+    </div>
+  </section>
+
+
+<!-- ACHIEVEMENTS -->
+<section class="achievements" id="achievements">
+  <div class="container">
+    <h2>Achievements</h2>
+    <div class="cert-cards">
+      <div class="cert-card">
+        <h3>LeetCode Achievements</h3>
+        <p>Solved 100+ problems on LeetCode with strong focus on Data Structures and Algorithms.</p>
+        
+      </div>
+      <!-- LeetCode Badges -->
+<div class="leetcode-badges">
+  <img src="assets/50daysBadge.png" alt="50 Days Badge" onclick="openModal(this)">
+  <img src="assets/DecBadge.png" alt="December Badge" onclick="openModal(this)">
+  <img src="assets/JanBadge.png" alt="January Badge" onclick="openModal(this)">
+</div>
+
+<!-- Image Modal -->
+<div id="badgeModal" class="modal" onclick="closeModal()">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImg">
+</div>
+
+  </div>
+</section>
+
+
+<!-- GITHUB BUTTON SECTION -->
+<section class="github-section">
+  <div class="container">
+    
+    <a href="https://github.com/mythilibandaru" target="_blank" class="cta glow github-btn">
+      <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-white-icon.png">
+      <i class="fa-brands fa-github"></i> Visit My GitHub
+    </a>
+  </div>
+</section>
+
+<!-- LINKEDIN SECTION -->
+<section class="linkedin-section">
+  <div class="container">
+    <a href="https://www.linkedin.com/in/mythili-b-881542304/" target="_blank" class="cta glow linkedin-btn">
+      <img src="https://img.freepik.com/premium-vector/linkedin-app-icon-world-s-largest-professional-network-social-networking-jobs-careers_277909-476.jpg?semt=ais_user_personalization&w=740&q=80">
+      <i class="fa-brands fa-linkedin"></i> Visit My Linkedin
+    </a>
+  </div>
+</section>
+
+
+  <!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <h2>Get In Touch</h2>
+
+    <div class="contact-details">
+      <p><strong>Phone:</strong> +91 8465926744</p>
+      <p><strong>Email:</strong> bmythili112@email.com</p>
+      <p><strong>Address:</strong> Hyderabad, Telangana, India</p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Mythili. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
